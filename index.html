@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+
+        body{
+            margin: 0px;
+            padding: 0px;
+        }
+
+        .nav{
+            background-color: rgb(8, 8, 8);
+            display: grid;
+            grid-template-columns: 1fr 100px auto;
+            color: white;
+            height: 60px;
+            align-content: center;
+            
+        }
+
+
+/*--------------------------------------------------------------*/
+
+        .header{
+            background-color: rgb(250, 251, 251);
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            
+
+        }
+
+
+        .header .main{
+            background-color: blueviolet;
+            height: 250px;
+            padding: 70px;
+            display: flex;
+            flex-direction: column;
+        }
+
+        .main p{
+          text-align: center;
+        }
+
+        .main button{
+           background-color:  rgb(22, 53, 212);
+           color: white;
+           height: 50px;
+          width: 150px;
+          position: relative;
+          top: 60px;
+          left: 150px;
+        }
+
+
+/*--------------------------------------------------------------*/
+
+        .header .sidebar{
+            background-color: rgb(247, 243, 243);
+            height: 210px;
+        }
+
+
+        .box1{
+            background-color: rgb(228, 56, 176);
+            height: 220px;
+            position:relative;
+            top: 100px;
+            left: 40px;
+            width: 70%;
+
+
+          
+        }
+
+        .box2{
+            background-color: rgb(22, 53, 212);
+            height: 90px; 
+            position:relative;
+            bottom: 140px;
+            left: 10px;
+            width: 180px;
+            
+        }
+
+        .box3{
+            background-color: rgb(19, 19, 19);
+            height: 180px; 
+            position:relative;
+            bottom: 120px;
+            left: 300px;
+            width: 240px;
+           
+        }
+
+        .box4{
+            background-color: rgb(22, 53, 212);
+            height: 90px; 
+            position:relative;
+            bottom: 230px;
+            left: 190px;
+            width: 180px;
+         
+        }
+
+
+            .footer{
+                background-color: rgb(10, 9, 9);
+                color: white;
+                display: flex;
+                flex-direction: row;
+                justify-content: space-around;
+
+            }
+            .footer2{
+                background-color: rgb(10, 9, 9);
+                color: white;
+                display: flex;
+                flex-direction: row;
+                justify-content: space-around;
+
+            }
+
+
+            @media screen and (max-width: 400px){
+              
+            }
+                
+            
+    </style>
+</head>
+<body>
+    
+    <div class="nav">
+        <div>Logo</div>
+        <div>Home</div>
+        <div>About us</div>
+    </div>
+
+
+    <!---------------------------------------------------------------------->
+    <div class="header">
+    <div class="main">
+        <p>header</p>
+        <p>domes text</p>
+        <button>Read More</button>
+    </div>
+    <div class="sidebar">
+        <div class="box1"></div>
+        <div class="box2"></div>
+        <div class="box3"></div>
+        <div class="box4"></div>
+    </div>
+    </div>
+
+
+     <!---------------------------------------------------------------------->
+
+    <div class="footer">
+        <p>demo text</p>
+        <p>demo text</p>
+       
+    </div>
+
+    <div class="footer2">
+        <p>demo text</p>
+        <p>demo text</p>
+    </div>
+
+
+
+</body>
+</html>
